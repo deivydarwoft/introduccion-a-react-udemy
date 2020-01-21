@@ -1,27 +1,19 @@
 {
   "name": "introduccion-a-react-udemy",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "repository": "https://github.com/deivydarwoft/introduccion-a-react-udemy.git",
+  "author": "Deivy <deivy.gutierrez@darwoft.com>",
+  "license": "MIT",
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/deivydarwoft/introduccion-a-react-udemy.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/deivydarwoft/introduccion-a-react-udemy/issues"
-  },
-  "homepage": "https://github.com/deivydarwoft/introduccion-a-react-udemy#readme",
   "dependencies": {
     "next": "^9.2.0",
     "react": "^16.12.0",
+    "react-color-tools": "^1.0.0",
     "react-dom": "^16.12.0"
   }
 }
