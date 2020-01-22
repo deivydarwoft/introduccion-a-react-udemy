@@ -1,7 +1,9 @@
 import {BasicPicker} from "react-color-tools"
+import Header from "../componentes/comunes/Header"
 import ClaseComponent from "../componentes/ClaseComponent"
 import getHistoryData from "../JSON/getHistoryData"
 import getMathData from "../JSON/getMathData"
+import Menu from '../componentes/comunes/Menu'
 const Contenedor = (props) => (
 	<div 
 		style={{
@@ -20,6 +22,8 @@ class Index extends React.Component {
 		const {color1, color2} = this.state
 		return (
 			<React.Fragment>
+				<Header/>
+				<Menu/>
 				<Contenedor color={color1}>
 					<h1 style={{textAlign:"center"}}>Curso del plan</h1>
 					<div style={{display:"flex", justifyContent:"space-around"}}>
@@ -42,7 +46,7 @@ class Index extends React.Component {
 						onChange={(color2)=>this.setState({color2})}
 					/>
 				</Contenedor>
-				</React.Fragment>
+			</React.Fragment>
 		)
 	}
 	
